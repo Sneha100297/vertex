@@ -1,2 +1,4 @@
 ---
 # tasks file for deployrole
+- include_tasks : deployjava.yml
+- include_tasks : tomcatservicestart.yml

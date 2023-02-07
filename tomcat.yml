@@ -2,4 +2,4 @@
 - hosts: 172.31.11.243
   become: yes
   roles:
-   - {role: deployrole , when: ansible_os_family=="Debian"}
+   - {role: mytomcatrole , when: ansible_os_family=="Debian"}
